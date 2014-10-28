@@ -1,0 +1,204 @@
+body{ 
+	background-color: rgba(82, 75, 75, 0.89)
+}
+
+#header{/* a div with text centered between two images*/
+	height:120px;
+	width:1210px;
+	border:1px solid black;
+	background-color:rgba(7,2,20,0.55); 
+	border-radius:10px;
+	margin-left: auto;
+	margin-right:auto;
+	position:relative;
+	
+}
+.link{
+	height:55px;
+	width:55px;
+	display:inline-block;
+}
+
+.link:hover{
+	opacity:.5;
+}
+.buttton{
+	float:right;
+	margin-top:5px;
+	height:55px;
+	width:240px;
+}
+#hcontact{
+	height:25px;
+	width:350px;
+	margin-left:850px;
+	margin-top:85px;
+}
+#hcontact p{
+	font-family:Arial;
+	color:white;
+	text-align:center;
+}
+
+#fb{
+	background:url('http://www.concord.edu/userfiles/image/events/facebook_button_eu3g.gif');
+	background-size: 60px 60px;
+	background-position:center;
+}
+
+#tw{
+	background:url('http://www.artinaction.org.uk/_Assets/LIB/Questions/Twitter%20Button.png');
+	background-size: 55px 55px;
+}	
+
+#sc {
+	background: url('http://www.gleis3-musik.de/grafik/soundcloudbutton.gif');
+	background-size: 55px 55px;
+}
+
+#yt {
+	background: url('http://www.centralokanaganfoundation.org/files/YouTube-Button.png');
+	background-size: 55px 55px
+}
+#inside{
+	height:80px;
+	width:625px;
+	padding-top:10px;
+	padding-bottom:10px;
+	top:10px;
+	left:150px;
+	background-color:rgb(255,173,0);
+	text-align:center;
+	border:2px solid orange;
+	border-radius: 20px;
+	position:absolute;
+}
+
+#inside img{
+	height:70px;
+	width:575px;
+	z-index: 1;
+	border:5px solid black;
+	border-radius:20px;
+}
+
+#about{ /*header div*/
+	height:50px;
+	width:500px;
+	border-radius:20px;
+	position:relative;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+}
+#about h3{
+	font-family:Arial;
+	font-size:30px;
+	text-align:center;
+	margin:5px;
+	border-bottom: 3px solid black;
+	color:rgb(255,153,0);
+}
+#description{
+	height:350px;
+	width: 750px;
+	margin-top:20px;
+	padding-left:20px;
+	padding-right:20px;
+	background-color:rgb(43, 43, 48);
+	border: 2px solid rgb(98, 98, 112);
+	border-radius:20px;
+	margin-left:225px;
+	margin-right:225px;
+
+}
+#description img{
+	height: 200px;
+	width: 200px;
+	float:right;
+	margin:10px;
+	margin-right:0px;
+	border:1px solid black;
+	border-radius: 20px;
+}
+.about_body{
+	text-align:center;
+	font-family:Verdana;
+	font-size: 14px;
+	color:white;
+}
+#contact{
+	height:50px;
+	width:500px;
+	border-radius:20px;
+	position:relative;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+}
+#contact_head{
+	font-family:Arial;
+	font-size:30px;
+	text-align:center;
+	margin:5px;
+	border-bottom: 3px solid black;
+	color:rgb(255,153,0);
+}
+#contact_info{
+	height:200px;
+	width: 450px;
+	margin-top:20px;
+	padding-left:25px;
+	padding-right:25px;
+	padding-bottom:10px;
+	background-color:rgb(43, 43, 48);
+	border: 2px solid rgb(98, 98, 112);
+	border-radius:20px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.contact_info_head{
+	text-align:center;
+	font-family:Arial;
+	font-weight: bold;
+	color:white;
+	text-decoration: underline;
+}
+.contact_info_body{
+	text-align:center;
+	margin-top:4px;
+	margin-bottom:4px;
+	font-family:Arial;
+	color:white;
+}
+table{
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.left{
+	text-align:left;
+	width:171px;
+	color:white;
+}
+.middle{
+	text-align:center;
+	padding-left:1px;
+	padding-right:1px;
+	color:white;
+}
+.right{
+	width:171px;
+	color:white;
+	text-align:right;
+}
+
+h4{
+	margin-bottom:10px;
+	text-align:center;
+	text-decoration:underline;
+	color:white;
+}
